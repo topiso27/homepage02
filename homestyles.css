@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
+}
+
+body {
+  font-family: 'MaruBuri', sans-serif;
+  background-color: #f6f8fa;
+  color: #24292e;
+}
+
+.navbar {
+  background-color: #24292f;
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links button {
+  color: rgb(255, 255, 255);
+  font-family: 'MaruBuri', sans-serif;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.nav-links button:hover {
+  color: #88919c;
+}
+/* Main Content */
+.container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.repo-header {
+  margin-bottom: 1rem;
+}
+
+.repo-header h2 {
+  font-size: 1.8rem;
+}
+
+.commit-box {
+  background-color: white;
+  border: 1px solid #d0d7de;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+}
+
+.readme-box {
+  background-color: white;
+  border: 2px dashed #d0d7de;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.readme-box button {
+  background-color: #2da44e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.readme-box button:hover {
+  background-color: #218739;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #6e7781;
+}
